@@ -1,0 +1,8 @@
+{
+  "name": "monster-jump",
+  "version": "1.0.0",
+  "description": "A simple Javascript game where the user jumps to avoid obstacles.",
+  "main": "index.js",
+  "author": "SC",
+  "license": "MIT"
+}
