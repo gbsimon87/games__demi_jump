@@ -4,5 +4,8 @@
   "description": "A simple Javascript game where the user jumps to avoid obstacles.",
   "main": "index.js",
   "author": "SC",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.1.2"
+  }
 }

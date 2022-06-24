@@ -1,0 +1,87 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+main {
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.game-area {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-area-select-game .games {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.game-area-select-game .games:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.game-area-controls {
+  border-top: 1px solid black;
+  padding: 2em;
+}
+
+.game-area-controls-play-pause {
+  padding: 1.5em;
+  border: none;
+  border-radius: 0.3em;
+  background-color: #7ac37a;
+}
+
+.game-area-controls-play-pause {
+  outline: rgb(122 195 122 / 78%);
+  cursor: pointer;
+}
+
+.game-area-content {
+  font-size: 6em;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}

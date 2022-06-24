@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.game {
+  width: 800px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+#character {
+  background-image: url(demi_monster.jpeg);
+  width: 5em;
+  height: 5em;
+  background-color: white;
+  position: relative;
+  top: 420px;
+  border-radius: 50%;
+  background-position: 0px -10px;
+  background-size: cover;
+  z-index: 10;
+}
+.animate {
+  animation: jump infinite 0.3s linear;
+}
+@keyframes jump {
+  0% {
+    top: 150px;
+  }
+  30% {
+    top: 100px;
+  }
+  70% {
+    top: 100px;
+  }
+  100% {
+    top: 150px;
+  }
+}
+
+#block {
+  background-color: blue;
+  width: 20px;
+  height: 75px;
+  position: relative;
+  top: 345px;
+  left: 800px;
+  animation: block 1s linear infinite;
+}
+
+@keyframes block {
+  0% {
+    left: 800px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+p {
+  text-align: center;
+}
